@@ -16,7 +16,7 @@ jobs:
 
       - name: Convert DOCX to Markdown
         run: |
-          pandoc input.docx -f docx -t markdown -o output.md
+          pandoc uk-payroll-approach v1.1.docx -f docx -t markdown -o uk-payroll-approach.md
 
       - name: Commit and push changes
         run: |
